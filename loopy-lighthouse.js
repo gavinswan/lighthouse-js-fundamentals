@@ -8,6 +8,6 @@ while (num <= 200) {
     console.log("LoopyLighthouse");
   } else {
     console.log(num);
-}
-num = num + 1;
+  }
+  num = num + 1;
 }
