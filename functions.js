@@ -1,9 +1,4 @@
-function square(x) {
-  return x * x;
+const eat = function(food) {
+  return food + ' tasted really good.';
 }
-
-function subtractFour(x) {
-  return square(x) - 4;
-}
-
-console.log(subtractFour(5));
+console.log(eat('bananas'));
